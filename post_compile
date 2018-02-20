@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
 export build_path=$original_build_path
+
+# Add the real platform tools location now that $build_path is fixed.
+# The problem is post_compile is run after write_export is called.
+local export_line="export PATH=\$PATH:$build_dir/.platform_tools:$build_dir/.platform_tools/erlang/bin:$build_dir/.platform_tools/elixir/bin"
+
+# append to the export
+echo $export_line >> $build_pack_path/export
