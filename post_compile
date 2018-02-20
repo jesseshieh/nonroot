@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+export build_dir=$original_build_dir
