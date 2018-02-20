@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-export build_dir=$original_build_dir
+export build_path=$original_build_path
