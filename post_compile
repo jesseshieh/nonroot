@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+echo $original_build_path
 export build_path=$original_build_path
 
 # Add the real platform tools location now that $build_path is fixed.
