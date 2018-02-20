@@ -1,3 +1,2 @@
 export original_build_path=$build_path
-echo $original_build_path
 export build_path=$build_path/hello
