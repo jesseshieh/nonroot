@@ -1,0 +1,6 @@
+export build_path=$original_build_path
+
+copy_hex
+
+write_profile_d_script
+write_export
